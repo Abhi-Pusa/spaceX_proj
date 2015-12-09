@@ -1,0 +1,335 @@
+body
+{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin:0px;
+}
+
+ ul > li
+{
+    display:inline;
+    margin-left: 5%;
+    font-family:sans-serif;
+    font-weight: bold;
+    color:#000000;
+}
+
+.wrap_menu
+{
+    width:80%;
+    margin-bottom: 15px;
+    margin-left: 3%;
+
+}
+
+.wrap_menu ul
+{
+  padding-left: 0px;
+}
+
+.wrap_menu li
+{
+  font-size: 1.27em;
+  color: #ffffff;
+  margin: 0px;
+  padding:7px;
+}
+
+.wrap_menu li ::after
+{
+  content: "|";
+  padding-left: 13px;
+}
+
+.wrap_menu li :last-child::after
+{
+  content: "";
+}
+
+.wrap_menu li a
+{
+  text-decoration:none;
+  color:#000000;
+}
+
+.wrap_menu li a:hover
+{
+  text-decoration: underline;
+  color:red;
+}
+
+
+.wrap_menu1
+{
+  font-size: 1.0em;
+  background-color: #bfbfbf;
+    width:85%;
+    margin-left:0.5%;
+    padding:0px;
+    text-align: center;
+}
+
+.wrap_menu1 ul{
+  padding:0px;
+}
+
+.wrap_menu1 ul li{
+  margin:8px ;
+  padding:0px;
+}
+
+.wrap_menu1  li::after{
+    content: "|";
+    padding-left:17px;
+}
+.wrap_menu1 li:last-child::after
+{
+  content: "";
+}
+
+#hero-unit p {
+  color: white;
+}
+
+#hero-unit p span {
+  color: red;
+}
+
+.logo_img {
+    margin:0px;
+    overflow: hidden;
+    float:left;
+}
+.wrap_1
+{
+  color:#000000;
+  clear:both;
+  margin-bottom: 0px;
+  font-family: Rancho;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.wrap_1 h1
+{
+  margin-left: 400px;
+  font-size: 40px;
+  color:#000000;
+ font-family:Rancho;
+}
+
+.mission_images h1
+{
+  margin-left: 300px;
+  font-size: 40px;
+  color:#000000;
+ font-family:Rancho;
+}
+.mission_images .grid_8 img
+{
+  border:5px solid grey;
+  margin-left: 10px;
+}
+.mission_det
+{
+  margin-top: 0px;
+  height:400px;
+}
+.mission_det p{
+  font-family: Tangerine;
+}
+.mission_det ul li
+{
+  color:#fff;
+  display: block;
+}
+
+.mission_det ul li a
+{
+  text-decoration: none;
+}
+
+.mission_det p
+{
+  padding-left: 10px;
+  color:#778899;
+  font-weight: bolder;
+  font-size: 1.27em;
+  font-family: monospace;
+}
+
+.galaxy1 .grid_12
+{
+   background-image: url('../image/galaxy_study.jpg');
+   background-repeat: no-repeat;
+   height:600px;
+   width:960px;
+   text-align: center;
+   margin-top: 30px;
+   margin-left: 0px;
+   margin-bottom: 30px;
+}
+
+.galaxy1 .grid_12 > h1
+{
+  padding-left: 0px;
+  padding-top: 20%;
+   color:#FFFFFF;
+   font-size: 50px;
+   text-transform: uppercase;
+   text-shadow: 5px 10px 10px #9FC5FF;
+   font-family:Rancho;
+}
+
+footer{
+  height:25%;
+  width:100%;
+  overflow:hidden;
+  clear:both;
+  padding:0px;
+  background-color: #d9d9d9;
+}
+.wrap3
+{
+
+}
+.wrap3 h2
+{
+  color:#000000;
+ font-family:Rancho;
+ font-size: 40px;
+ margin-left:0px;
+}
+
+.mission_det1
+{
+  margin: 10px;
+font-family: Rancho;
+  font-size: 17px;
+  font-weight: bold;
+}
+.mission_det1 p {
+  color:#000000;
+  margin:0px;
+}
+.wrap4
+{
+
+}
+.wrap4 h2
+{
+  margin:0px;
+  padding-top:30px;
+  color:#000000;
+  font-family:Rancho;
+  font-size: 40px;
+}
+.mission_det2
+{
+  margin-bottom: 20px;
+font-family: Rancho;
+  font-size: 17px;
+  font-weight: bold;
+}
+.mission_det2 p {
+  color:#000000;
+  margin:0px;
+  margin-left:5px;
+
+}
+.mission1 img{
+  height:200px;
+  width:300px;
+  border:5px solid grey;
+  margin-top:60px
+}
+.mission2 img{
+  height:200px;
+  width:300px;
+  border:5px solid grey;
+  margin-top: 50px;
+}
+
+.blog_det
+{
+  text-align: left;;
+  margin-top: 10px;
+}
+
+.blog_det a
+{
+  text-decoration: none;
+  display: block;
+  color:#800000;
+}
+
+.layout1
+{
+  padding-top:30px;
+}
+.layout1 .grid_4{
+  text-align: center;
+  border: 1px solid grey;
+  margin: 7px;
+}
+
+.layout1 .grid_4 p{
+  color:#000000;
+  font-weight: bold;
+}
+
+.layout2 .grid_4{
+  text-align: center;
+  border: 1px solid grey;
+  margin: 7px;
+}
+
+.head_gallery h1
+{
+  font-size: 60px;
+  margin:0px;
+  margin-left:400px;
+  padding-top:20px;
+  font-family:Rancho;
+}
+.layout2 .grid_4 p{
+  color:#000000;
+  font-weight: bold;
+}
+
+.layout3
+{padding-bottom:30px;
+}
+.layout3 .grid_4{
+  text-align: center;
+  border: 1px solid grey;
+  margin: 7px;
+}
+
+.layout3 .grid_4 p{
+  color:#000000;
+  font-weight: bold;
+}
+
+.post_grid > a{
+  text-decoration: none;
+  color:brown;
+}
+#float_left
+{
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:150px;
+  height:900px;
+  background-color: #0d0d0d;
+}
+#float_right
+{
+  position:fixed;
+  right:0px;
+  top:0px;
+  width:150px;
+  height:900px;
+  background-color: #0d0d0d;
+}
